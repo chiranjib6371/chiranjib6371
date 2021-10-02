@@ -1,3 +1,7 @@
+
+
+
+string = input("Enter some string:")
 def reverseSting(text):
     index = -1
     for i in range(len(text) - 1, int(len(text) / 2), -1):
@@ -10,15 +14,6 @@ def reverseSting(text):
                     text[index] = temp
                     break
     return text
-
-
-string = input("Enter some string:")
-print("string:", string)
-
-
-def reversedstring(param):
-    pass
-
 
 string = reversedstring(list(string))
 print("output string:", "".join(string))
