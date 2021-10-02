@@ -15,5 +15,5 @@ def reverseSting(text):
                     break
     return text
 
-string = reversedstring(list(string))
+string = reverse . string(list(string))
 print("output string:", "".join(string))
